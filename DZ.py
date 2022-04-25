@@ -5,6 +5,21 @@ Element_tip = ['drtgg', 1, (2, 1), [1, 2], 3.1, True, frozenset('1'), set('1')]
 for el in Element_tip:
     print(type(el))
 
+# Задание 2:
+
+element_count = int(input("Введите количество элементов списка "))
+my_list = []
+i = 0
+element = 0
+while i < element_count:
+    my_list.append(input("Введите значение списка "))
+    i += 1
+
+for elem in range(int(len(my_list) / 2)):
+    my_list[element], my_list[element + 1] = my_list[element + 1], my_list[element]
+    element += 2
+print(my_list)
+
 # Задание 3
 new_dict = {"1": "zima", "2": "vesna", "3": "leto", "4": "osen"}
 new_list1 = ["zima", "vesna", "leto", "osen"]
