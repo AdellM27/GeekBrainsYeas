@@ -87,3 +87,4 @@ def factorial_gen(n):
 print("<<Программа вычисления факториала числа>>")
 for el in factorial_gen(15):
     print(el)
+ # Dc
